@@ -1,0 +1,186 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Paracetamol 500mg",
+            "price": 5000,
+            "description": "Isitma va og‘riq qoldiruvchi",
+            "image": "../src/IMG/Parasitamol.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Ibuprofen",
+            "price": 12000,
+            "description": "Yallig‘lanishga qarshi",
+            "image": "../src/IMG/Ibuproden.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Citramon",
+            "price": 6000,
+            "description": "Bosh og‘rig‘i uchun",
+            "image": "../src/IMG/Sitramon.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Analgin",
+            "price": 7000,
+            "description": "Og‘riq qoldiruvchi",
+            "image": "../src/IMG/Analgin.jpg"
+        },
+        {
+            "id": 6,
+            "name": "No-Shpa",
+            "price": 15000,
+            "description": "Spazmga qarshi",
+            "image": "../src/IMG/Spazm.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Nimesil",
+            "price": 27000,
+            "description": "Og‘riq qoldiruvchi kukun",
+            "image": "../src/IMG/Ogrig.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Amoxicillin",
+            "price": 22000,
+            "description": "Antibiotik",
+            "image": "../src/IMG/Antibiotik.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Azithromycin",
+            "price": 25000,
+            "description": "Keng ta’sirli antibiotik",
+            "image": "../src/IMG/Keng.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Ceftriaxone",
+            "price": 18000,
+            "description": "Kuchli antibiotik",
+            "image": "../src/IMG/Kuchli.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Loratadin",
+            "price": 9000,
+            "description": "Allergiyaga qarshi",
+            "image": "../src/IMG/Allergiyaga.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Suprastin",
+            "price": 11000,
+            "description": "Allergiya uchun",
+            "image": "../src/IMG/Allergiyaga.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Tavegil",
+            "price": 13000,
+            "description": "Allergiyaga qarshi",
+            "image": "../src/IMG/Allergiyaga.jpg"
+        },
+        {
+            "id": 14,
+            "name": "ACC 200",
+            "price": 17000,
+            "description": "Yo‘tal uchun",
+            "image": "../src/IMG/Yotal.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Ambroxol",
+            "price": 8000,
+            "description": "Yo‘tal siropi",
+            "image": "../src/IMG/YotalS.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Bromhexine",
+            "price": 7000,
+            "description": "Yo‘tal uchun",
+            "image": "../src/IMG/Keng.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Fervex",
+            "price": 14000,
+            "description": "Shamollash uchun",
+            "image": "../src/IMG/Antibiotik.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Coldrex",
+            "price": 15000,
+            "description": "Gripp va shamollash",
+            "image": "../src/IMG/Keng.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Antigrippin",
+            "price": 12000,
+            "description": "Isitma va gripp",
+            "image": "../src/IMG/Ogrig.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Smecta",
+            "price": 9000,
+            "description": "Ich ketishga qarshi",
+            "image": "../src/IMG/Allergiyaga.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Activated Carbon",
+            "price": 3000,
+            "description": "Zaharlanish uchun",
+            "image": "../src/IMG/Parasitamol.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Enterosgel",
+            "price": 25000,
+            "description": "Toksinlarni chiqaradi",
+            "image": "../src/IMG/Sitramon.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Mezim Forte",
+            "price": 16000,
+            "description": "Hazm uchun",
+            "image": "../src/IMG/Analgin.jpg"
+        },
+        {
+            "id": 26,
+            "name": "Omeprazole",
+            "price": 9000,
+            "description": "Oshqozon uchun",
+            "image": "../src/IMG/Spazm.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Ranitidine",
+            "price": 7000,
+            "description": "Kislotalikni kamaytiradi",
+            "image": "../src/IMG/Kuchli.jpg"
+        },
+        {
+            "id": 28,
+            "name": "Almagel",
+            "price": 18000,
+            "description": "Oshqozon og‘rig‘i",
+            "image": "../src/IMG/Antibiotik.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Gaviscon",
+            "price": 20000,
+            "description": "Qayt qilish va achishish",
+            "image": "../src/IMG/Kuchli.jpg"
+        }
+    ]
+}
