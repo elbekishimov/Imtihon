@@ -1,13 +1,13 @@
 import { Link, useNavigate, useParams } from "react-router-dom";
 
 export default function ProductDetails() {
-    const { id } = useParams(); // to'g'ri param
+    const { id } = useParams();
     const navigate = useNavigate();
 
     const data = localStorage.getItem("userProduct");
     const products = data ? JSON.parse(data) : [];
 
-    const result = products.find((item) => item.id === Number(id));
+    const result = products.find((item) => String(item.id) === id);
 
     if (!result) {
         return (
@@ -20,17 +20,16 @@ export default function ProductDetails() {
     return (
         <div className="min-h-screen flex items-center justify-center px-4">
             <div className="max-w-xl w-full text-center">
-                <h2 className="text-2xl font-semibold mb-4">{result.name}</h2>
-                <p className="text-gray-600 mb-6">{result.description}</p>
-                <h6 className="mb-4">{result.price} so'm</h6>
-                <img src={result.image} alt={result.name} className="mb-4 mx-auto rounded" />
-                <div className="flex gap-3 justify-center">
-                    <button onClick={() => navigate(-1)} className="px-4 py-2 rounded bg-gray-200">
-                        Go back
-                    </button>
-                    <Link to="/products" className="px-4 py-2 rounded bg-blue-600 text-white">
-                        View products
-                    </Link>
+                <div className="border rounded-md p-4">
+                    <div className="w-full h-[250px] rounded-md border mb-3">
+                        <img className="w-full h-full object-cover" src={result.image} alt="" />
+                    </div>
+                    <div className="px-4">
+                        <h5 className="mb-2 line-clamp-2">{result.name}</h5>
+                        <h4 className="mb-3 text-[15px] font-bold">${result.price}</h4>
+                        <p className="mb-2 text-[10px] text-gray-600 line-clamp-3">{result.description}</p>
+                        <button onClick={() => navigate(-1)} className="px-5 py-2 rounded cursor-pointer bg-red-600 text-white">Sotib olish</button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@
             "name": "Paracetamol 500mg",
             "price": 5000,
             "description": "Isitma va og‘riq qoldiruvchi",
-            "image": "../src/IMG/Parasitamol.jpg"
+            "image": "./Parasitamol.jpg"
         },
         {
             "id": 2,
@@ -19,7 +19,7 @@
             "name": "Citramon",
             "price": 6000,
             "description": "Bosh og‘rig‘i uchun",
-            "image": "../src/IMG/Sitramon.jpg"
+            "image": "./Sitramon.jpg"
         },
         {
             "id": 4,
