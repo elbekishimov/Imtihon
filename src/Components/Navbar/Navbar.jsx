@@ -16,6 +16,7 @@ export default function Navbar() {
                         <Link to={'/about'}><li className='font-semibold text-xl'>About</li></Link>
                         <Link to={'/products'}><li className='font-semibold text-xl'>Products</li></Link>
                         <Link to={'/blog'}><li className='font-semibold text-xl'>Blog</li></Link>
+                        <Link to={"/contact"}><li className='font-semibold text-xl'>Contact</li></Link>
                     </ul>
                 </div>
                 <div className='flex gap-3'>

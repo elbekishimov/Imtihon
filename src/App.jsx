@@ -8,8 +8,8 @@ import About from './Pages/About/About'
 import NotFound from './Components/NotFound/NotFound'
 import SignUp from './Pages/SignUp/SignUp'
 import SignIn from './Pages/SignIn/SignIn'
-import ProductItem from './Pages/Products/_components/ProductsItem'
 import ProductDetails from './Pages/Products/ProductsDetails/ProductDetails'
+import Contact from './Pages/Contact/Contact'
 
 function App() {
 
@@ -18,6 +18,10 @@ function App() {
       path: '/',
       element: <Navbar />,
       children: [
+        {
+          path: '/',
+          element: <Home/>
+        },
         {
           path: '/home',
           element: <Home />,
@@ -46,6 +50,10 @@ function App() {
           path: "products/:id",
           element: <ProductDetails />
         },
+        {
+          path: "/contact",
+          element: <Contact/>
+        }
       ]
     },
     {
