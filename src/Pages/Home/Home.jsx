@@ -1,5 +1,8 @@
 import { Link, Outlet } from "react-router-dom";
 import unnamed from "../../IMG/unnamed.png"
+import Practic from "./_components/Practic";
+// import { Lightbulb } from 'lucide-react';
+
 
 export default function Home() {
   return (
@@ -53,7 +56,9 @@ export default function Home() {
         </div>
       </section>
 
-
+      <div>
+          <Practic/>
+      </div>
 
       <main><Outlet /></main>
     </>

@@ -4,12 +4,13 @@ import Navbar from './Components/Navbar/Navbar'
 import Home from './Pages/Home/Home'
 import Products from './Pages/Products/Products'
 import Blog from './Pages/Blog/Blog'
-import About from './Pages/About/About'
 import NotFound from './Components/NotFound/NotFound'
 import SignUp from './Pages/SignUp/SignUp'
 import SignIn from './Pages/SignIn/SignIn'
-import ProductItem from './Pages/Products/_components/ProductsItem'
 import ProductDetails from './Pages/Products/ProductsDetails/ProductDetails'
+import Contact from './Pages/Contact/Contact'
+import Services from './Pages/Services/About'
+import Footer from './Components/Footer/Footer'
 
 function App() {
 
@@ -19,12 +20,16 @@ function App() {
       element: <Navbar />,
       children: [
         {
+          path: '/',
+          element: <Home/>
+        },
+        {
           path: '/home',
           element: <Home />,
         },
         {
-          path: '/about',
-          element: <About />
+          path: '/services',
+          element: <Services />
         },
         {
           path: '/products',
@@ -46,7 +51,14 @@ function App() {
           path: "products/:id",
           element: <ProductDetails />
         },
+        {
+          path: "/contact",
+          element: <Contact/>
+        }
       ]
+    },
+    {
+      element: <Footer/>
     },
     {
       path: '*',
